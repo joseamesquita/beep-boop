@@ -46,6 +46,7 @@ $(document).ready(function () {
     console.log(valueExchange);
     console.log(result);
     // $("#output").text(valueExchange);
-    $("#output").text(result)
+    $("#output").text(result).show();
+    $("#beep").show();
   });
 });
