@@ -3,7 +3,7 @@
 function number(input) {
   var value = input.toString();
   if (value.includes("3")) {
-    return " I'm sorry, Dave. I'm afraid I can't do that";
+    return " I'm sorry, Dave. I'm afraid I can't do that.";
   }
   else if (value.includes("2")) {
     return " Beep!";
@@ -12,7 +12,7 @@ function number(input) {
     return " Boop!";
   }
   else {
-    return input;
+    return " " + input;
   }
   console.log(value);
 }
