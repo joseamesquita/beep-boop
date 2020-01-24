@@ -17,6 +17,8 @@ function number(input) {
   console.log(value);
 }
 
+
+//User Interface Logic 
 function compute(value) {
   var numArray = [];
   var num = value.toString();
