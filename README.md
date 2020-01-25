@@ -46,7 +46,7 @@ _email: joseamesquita11@gmail.com_
 * _form inputs_
 * _branching_
 * _Git_
-* Looping & Arrays
+* _Looping & Arrays_
 
 ### License
 
