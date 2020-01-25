@@ -8,6 +8,11 @@
   color: rgb(68, 6, 107);
   display: none;
 }
+#countDown {
+  /* background-color: rgb(68, 6, 107); */
+  color: rgb(68, 6, 107);
+  display: none;
+}
 
 #number {
   color: black;

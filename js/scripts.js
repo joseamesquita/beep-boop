@@ -32,7 +32,7 @@ function compute(value) {
       var newArray = numArray.toString((" "));
     }
     console.log(numArray);
-    console.log(newArray);
+    // console.log(newArray);
     return newArray;
   }
 }
@@ -43,10 +43,13 @@ $(document).ready(function () {
     event.preventDefault();
     var valueExchange = number(parseInt($("input#number").val()));
     var result = compute(parseInt($("input#number").val()));
-    console.log(valueExchange);
-    console.log(result);
+    // console.log(valueExchange);
+    // console.log(result);
     // $("#output").text(valueExchange);
+    var reverseArray = result.split(",");
+    console.log(reverseArray);
     $("#output").text(result).show();
+    $("#countDown").text(reverseArray).show();
     $("#beep").show();
   });
 });
