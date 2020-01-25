@@ -3,11 +3,17 @@
   color: white;
 }
 
-#output {
+.output {
   /* background-color: rgb(68, 6, 107); */
   color: rgb(68, 6, 107);
   display: none;
 }
+.outputTwo {
+  /* background-color: rgb(68, 6, 107); */
+  color: rgb(68, 6, 107);
+  display: none;
+}
+
 #countDown {
   /* background-color: rgb(68, 6, 107); */
   color: rgb(68, 6, 107);
@@ -21,4 +27,8 @@
 #beep {
   display: none;
   float: right;
+}
+
+span {
+  color: rgb(68, 6, 107);;
 }
