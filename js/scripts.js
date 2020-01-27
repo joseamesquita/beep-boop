@@ -36,7 +36,7 @@ function compute(value) {
     }
     // console.log(numArray.join(""));
     // console.log(numArray.reverse());
-    return numArray.join("");
+    return numArray.join(" -> ");
   }
 }
 
@@ -57,7 +57,7 @@ function computeReverse(value) {
     }
     // console.log(numArray.join(""));
     // console.log(numArray.reverse());
-    return numArray.reverse().join("");
+    return numArray.reverse().join(" -> ");
   }
 }
 
