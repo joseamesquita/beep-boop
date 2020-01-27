@@ -14,7 +14,6 @@ function number(input) {
   else {
     return " " + input;
   }
-  console.log(value);
 }
 
 
@@ -23,7 +22,7 @@ function compute(value) {
   var numArray = [];
   var num = value.toString();
   var letters = /^[A-Za-z]+$/;
-  // str = '\n';
+
   if (num.match(letters)) {
     return "This is not a number, please enter a number";
   }
@@ -34,11 +33,7 @@ function compute(value) {
     for (var i = 0; i <= num; i++) {
       numArray.push(number(i));
       var newArray = numArray.toString((" "));
-      // str += '\n';
-      // var reverseArray = [];
     }
-    // console.log(numArray.join(""));
-    // console.log(numArray.reverse());
     return numArray.join(" -> ");
   }
 }
@@ -47,7 +42,6 @@ function computeReverse(value) {
   var numArray = [];
   var num = value.toString();
   var letters = /^[A-Za-z]+$/;
-  // str = '\n';
   if (num.match(letters)) {
     return "This is not a number, please enter a number.";
   }
@@ -58,11 +52,7 @@ function computeReverse(value) {
     for (var i = 0; i <= num; i++) {
       numArray.push(number(i));
       var newArray = numArray.toString((" "));
-      // str += '\n';
-      // var reverseArray = [];
     }
-    // console.log(numArray.join(""));
-    // console.log(numArray.reverse());
     return numArray.reverse().join(" -> ");
   }
 }
@@ -73,7 +63,7 @@ $(document).ready(function () {
     var valueExchange = number(parseInt($("input#number").val()));
     var result = compute(parseInt($("input#number").val()));
     var resultTwo = computeReverse(parseInt($("input#number").val()));
-    // var reverseArray = result.split(",");
+
     $(".output").text(result).show();
     $(".outputTwo").text(resultTwo).show();
     $("#beep").show();
