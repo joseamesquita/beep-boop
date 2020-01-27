@@ -3,7 +3,7 @@
 function number(input) {
   var value = input.toString();
   if (value.includes("3")) {
-    return " I'm sorry, " + $("input#name").val() + ". I'm afraid I can't do that.";
+    return " I'm sorry, " + $("input#name").val() + ". I'm afraid I can't do that!";
   }
   else if (value.includes("2")) {
     return " Beep!";
@@ -27,6 +27,9 @@ function compute(value) {
   if (num.match(letters)) {
     return "This is not a number, please enter a number";
   }
+  else if ((value <= -1) || (value >= 9999)) {
+    return "number out of range, enter a number value between 0 - 99998";
+  }
   else {
     for (var i = 0; i <= num; i++) {
       numArray.push(number(i));
@@ -46,7 +49,10 @@ function computeReverse(value) {
   var letters = /^[A-Za-z]+$/;
   // str = '\n';
   if (num.match(letters)) {
-    return "This is not a number, please enter a number";
+    return "This is not a number, please enter a number.";
+  }
+  else if ((value <= -1) || (value >= 9999)) {
+    return "number out of range, enter a number value between 0 - 99998";
   }
   else {
     for (var i = 0; i <= num; i++) {
