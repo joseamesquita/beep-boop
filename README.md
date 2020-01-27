@@ -27,9 +27,9 @@ _This web application takes a number from a user and returns a range of numbers 
 Behavior | Input | Output
 --- | --- | ---
 program returns a range of numbers from 0 to the user inputted number | 4 | 0, 1, 2, 3, 4
-program replaces all numbers that conatin with 1 with "Beep!" | 1 | Beep!
-program replaces all numbers that conatin with 2 with "Beep!" | 2 | Boop!
-program replaces all numbers that conatin with 3 with "I'm sorry, Dave. I'm afraid I can't do that!" | 3 | I'm sorry, Dave. I'm afraid I can't do that!
+program replaces all numbers that contain with 1 with "Beep!" | 1 | Beep!
+program replaces all numbers that contain with 2 with "Beep!" | 2 | Boop!
+program replaces all numbers that contain with 3 with "I'm sorry, _____. I'm afraid I can't do that!" | 3 | I'm sorry, ______. I'm afraid I can't do that!
 
 
 ## Known Bugs
