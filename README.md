@@ -20,7 +20,7 @@ _This web application takes a number from a user and returns a range of numbers 
 4. on terminal browse to your desktop: cd Desktop
 5. type: 'git clone https://github.com/joseamesquita/beep-boop.git'
 6. type: 'code .' 
-7. to run the application type: 'open index.html' within the beepBoop folder
+7. to run the application type: 'open index.html' within the beep-boop folder
 
 ## Specs
 
